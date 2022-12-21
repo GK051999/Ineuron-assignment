@@ -63,7 +63,7 @@ HAVING SUM(duration) >= 10
 ORDER BY name
 
 
--------------------------------------------------------------TASK-3 -----------------------------------------------
+-------------------------------------------------------------TASK-2-----------------------------------------------
 
 
 create or replace table phones_1 (
@@ -79,7 +79,7 @@ create or replace table calls_1(
     unique(id));   
 
 insert into phones_1 values
-('John',6356),('Addison',4315),('kate',8003),('Ginny',7582);
+('John',6356),('Addison',4315),('kate',8003),('Ginny',9831);
 
 insert into calls_1 values
 (65,8003,9831,7),(100,9831,8003,3),(145,4315,9831,18);
